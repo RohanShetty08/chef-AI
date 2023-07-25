@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("shouldShowOnboarding") var showOnboarding: Bool = true
     var recipe: [RecipeItem]
-
     var body: some View {
         
         TabView {
@@ -31,10 +31,10 @@ struct ContentView: View {
             }.tabItem {
                 Label("Profile", systemImage: "person.fill")
             }
-            
-            
-            
         }
+        .fullScreenCover(isPresented: $showOnboarding, content: {
+            OnboardingView(shouldShowOnboarding: $showOnboarding)
+        })
     }
     
     struct ContentView_Previews: PreviewProvider {
@@ -44,3 +44,4 @@ struct ContentView: View {
     }
     
 }
+
