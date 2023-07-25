@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    var recipe: [RecipeItem]
 
     var body: some View {
         
         TabView {
             
             VStack {
-                HomeView()
+                HomeView(recipe: recipe)
             }.tabItem{
                 Label("Home", systemImage: "house.fill")
             }
@@ -38,7 +39,7 @@ struct ContentView: View {
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            ContentView(recipe: RecipeModel().recipe)
         }
     }
     

@@ -20,7 +20,7 @@ struct CameraView: View {
         NavigationView {
             ZStack{
                 NavigationLink(destination: ImagePicker(show: $imagePicker, image: $imageData, source: source), isActive: $imagePicker) {
-                    Text("")
+                    Text("Test")
                 }
                 VStack{
                     if imageData.count != 0 {

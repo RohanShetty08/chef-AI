@@ -11,7 +11,7 @@ import SwiftUI
 struct CookGPTApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(recipe: RecipeModel().recipe)
         }
     }
 }
