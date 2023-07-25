@@ -25,15 +25,6 @@ struct RecipesListView: View {
                 Text(category.rawValue)
             }
         }
-        //        NavigationSplitView{
-//            List(recipe, selection: $selectedItem){ item in
-//                NavigationLink(value: item){
-//                    Text("Description: " + item.description)
-//                }
-//            }
-//        } detail: {
-//            //HomeView(recipe: RecipeModel().recipe)
-//        }
     }
 }
 

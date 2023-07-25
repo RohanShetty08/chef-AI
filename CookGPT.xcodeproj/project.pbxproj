@@ -14,6 +14,7 @@
 		7E1E87C82A6F9E7A00CF72D8 /* RecipeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E87C72A6F9E7A00CF72D8 /* RecipeItem.swift */; };
 		7E1E87CB2A6F9F6A00CF72D8 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E87CA2A6F9F6A00CF72D8 /* RecipeModel.swift */; };
 		7E1E87CD2A702E7E00CF72D8 /* RecipeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E87CC2A702E7E00CF72D8 /* RecipeRowView.swift */; };
+		7E1E87CF2A707ABE00CF72D8 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E87CE2A707ABE00CF72D8 /* SplashView.swift */; };
 		7EC07D7A2A6DCF02003140A5 /* CookGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC07D792A6DCF02003140A5 /* CookGPTApp.swift */; };
 		7EC07D7C2A6DCF02003140A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC07D7B2A6DCF02003140A5 /* ContentView.swift */; };
 		7EC07D7E2A6DCF04003140A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC07D7D2A6DCF04003140A5 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		7E1E87C72A6F9E7A00CF72D8 /* RecipeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItem.swift; sourceTree = "<group>"; };
 		7E1E87CA2A6F9F6A00CF72D8 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		7E1E87CC2A702E7E00CF72D8 /* RecipeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRowView.swift; sourceTree = "<group>"; };
+		7E1E87CE2A707ABE00CF72D8 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		7EC07D762A6DCF02003140A5 /* CookGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC07D792A6DCF02003140A5 /* CookGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookGPTApp.swift; sourceTree = "<group>"; };
 		7EC07D7B2A6DCF02003140A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				7E1E87BE2A6EF86B00CF72D8 /* Views */,
 				7EC07D792A6DCF02003140A5 /* CookGPTApp.swift */,
 				7EC07D7B2A6DCF02003140A5 /* ContentView.swift */,
+				7E1E87CE2A707ABE00CF72D8 /* SplashView.swift */,
 				7EC07D7D2A6DCF04003140A5 /* Assets.xcassets */,
 				7EC07D7F2A6DCF04003140A5 /* Preview Content */,
 			);
@@ -181,6 +184,7 @@
 				7EC07D7C2A6DCF02003140A5 /* ContentView.swift in Sources */,
 				7E1E87C62A6F9D9300CF72D8 /* RecipesListView.swift in Sources */,
 				7E1E87CB2A6F9F6A00CF72D8 /* RecipeModel.swift in Sources */,
+				7E1E87CF2A707ABE00CF72D8 /* SplashView.swift in Sources */,
 				7E1E87C82A6F9E7A00CF72D8 /* RecipeItem.swift in Sources */,
 				7EC07D7A2A6DCF02003140A5 /* CookGPTApp.swift in Sources */,
 			);
