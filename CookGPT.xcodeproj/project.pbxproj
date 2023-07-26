@@ -16,6 +16,8 @@
 		7E1E87CD2A702E7E00CF72D8 /* RecipeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E87CC2A702E7E00CF72D8 /* RecipeRowView.swift */; };
 		7E1E87CF2A707ABE00CF72D8 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E87CE2A707ABE00CF72D8 /* SplashView.swift */; };
 		7E1E87D12A70914200CF72D8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E87D02A70914200CF72D8 /* OnboardingView.swift */; };
+		7E1E87E32A718AB100CF72D8 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E87E22A718AB000CF72D8 /* ImageSaver.swift */; };
+		7E1E87E52A71908500CF72D8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E87E42A71908500CF72D8 /* ImagePicker.swift */; };
 		7EC07D7A2A6DCF02003140A5 /* CookGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC07D792A6DCF02003140A5 /* CookGPTApp.swift */; };
 		7EC07D7C2A6DCF02003140A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC07D7B2A6DCF02003140A5 /* ContentView.swift */; };
 		7EC07D7E2A6DCF04003140A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC07D7D2A6DCF04003140A5 /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		7E1E87CC2A702E7E00CF72D8 /* RecipeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRowView.swift; sourceTree = "<group>"; };
 		7E1E87CE2A707ABE00CF72D8 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		7E1E87D02A70914200CF72D8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7E1E87E22A718AB000CF72D8 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		7E1E87E42A71908500CF72D8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		7EC07D762A6DCF02003140A5 /* CookGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC07D792A6DCF02003140A5 /* CookGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookGPTApp.swift; sourceTree = "<group>"; };
 		7EC07D7B2A6DCF02003140A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				7E1E87CE2A707ABE00CF72D8 /* SplashView.swift */,
 				7EC07D7D2A6DCF04003140A5 /* Assets.xcassets */,
 				7EC07D7F2A6DCF04003140A5 /* Preview Content */,
+				7E1E87E22A718AB000CF72D8 /* ImageSaver.swift */,
+				7E1E87E42A71908500CF72D8 /* ImagePicker.swift */,
 			);
 			path = CookGPT;
 			sourceTree = "<group>";
@@ -180,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1E87E52A71908500CF72D8 /* ImagePicker.swift in Sources */,
 				7E1E87CD2A702E7E00CF72D8 /* RecipeRowView.swift in Sources */,
 				7E1E87C02A6F03BC00CF72D8 /* CameraView.swift in Sources */,
 				7E1E87C22A6F04FF00CF72D8 /* HomeView.swift in Sources */,
@@ -187,6 +194,7 @@
 				7EC07D7C2A6DCF02003140A5 /* ContentView.swift in Sources */,
 				7E1E87C62A6F9D9300CF72D8 /* RecipesListView.swift in Sources */,
 				7E1E87CB2A6F9F6A00CF72D8 /* RecipeModel.swift in Sources */,
+				7E1E87E32A718AB100CF72D8 /* ImageSaver.swift in Sources */,
 				7E1E87CF2A707ABE00CF72D8 /* SplashView.swift in Sources */,
 				7E1E87C82A6F9E7A00CF72D8 /* RecipeItem.swift in Sources */,
 				7EC07D7A2A6DCF02003140A5 /* CookGPTApp.swift in Sources */,
@@ -323,6 +331,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allows user to capture a photo or video to upload to their family circle\nAllows user to capture a photo or video to upload to their family circle";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your detected photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -353,6 +362,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allows user to capture a photo or video to upload to their family circle\nAllows user to capture a photo or video to upload to their family circle";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your detected photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
