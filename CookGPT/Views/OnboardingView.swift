@@ -52,15 +52,21 @@ struct PageView: View {
     @Binding var shouldShowOnboarding: Bool
 
     var body: some View{
-        VStack{
+        VStack(spacing: 16){
             Image(imageName)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 360,height: 360)
             Text(title)
-                .padding()
+                .font(Font.custom("Mulish", size: 31).weight(.bold))
+                .tracking(0.15)
+                .lineSpacing(43.40)
+                .foregroundColor(Color(red: 0.21, green: 0.13, blue: 0.13))
             Text(subTitle)
-                .padding()
+                .font(Font.custom("Mulish", size: 16))
+                .tracking(0.08)
+                .lineSpacing(25.60)
+                .foregroundColor(Color(red: 0.65, green: 0.59, blue: 0.59))
             if showDismissButton {
                 Button(action: {
                     shouldShowOnboarding.toggle()
@@ -69,8 +75,8 @@ struct PageView: View {
                         .bold()
                         .foregroundColor(Color.white)
                         .frame(width: 200, height: 50)
-                        .background(Color.green)
-                        .cornerRadius(6)
+                        .background(Color.pink)
+                        .cornerRadius(25)
                 })
             }
         }
