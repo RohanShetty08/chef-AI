@@ -36,6 +36,7 @@
 		7E1E87D02A70914200CF72D8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		7E1E87E22A718AB000CF72D8 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		7E1E87E42A71908500CF72D8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7E1E87EB2A72E72500CF72D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EC07D762A6DCF02003140A5 /* CookGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC07D792A6DCF02003140A5 /* CookGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookGPTApp.swift; sourceTree = "<group>"; };
 		7EC07D7B2A6DCF02003140A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 				7EC07D7F2A6DCF04003140A5 /* Preview Content */,
 				7E1E87E22A718AB000CF72D8 /* ImageSaver.swift */,
 				7E1E87E42A71908500CF72D8 /* ImagePicker.swift */,
+				7E1E87EB2A72E72500CF72D8 /* Info.plist */,
 			);
 			path = CookGPT;
 			sourceTree = "<group>";
@@ -330,7 +332,9 @@
 				DEVELOPMENT_TEAM = ABA38RF8WS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Allows user to capture a photo or video to upload to their family circle\nAllows user to capture a photo or video to upload to their family circle";
+				INFOPLIST_FILE = CookGPT/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allows user to capture a photo or video to upload to their family circle\nAllows user to capture a photo to upload.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app wants to use you photo library.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your detected photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -361,7 +365,9 @@
 				DEVELOPMENT_TEAM = ABA38RF8WS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Allows user to capture a photo or video to upload to their family circle\nAllows user to capture a photo or video to upload to their family circle";
+				INFOPLIST_FILE = CookGPT/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allows user to capture a photo or video to upload to their family circle\nAllows user to capture a photo to upload.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app wants to use you photo library.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your detected photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

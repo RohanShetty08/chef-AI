@@ -52,6 +52,7 @@ struct PageView: View {
     @Binding var shouldShowOnboarding: Bool
 
     var body: some View{
+        
         VStack(spacing: 16){
             Image(imageName)
                 .resizable()
