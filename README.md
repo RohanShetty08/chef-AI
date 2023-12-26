@@ -2,7 +2,7 @@
 This is a web application demo for generating Recipes using LogMeal API and Google's AI.
 
 #### Video Presentation:
-https://drive.google.com/file/d/1KlRDBHEQRLD5D8a34qyTp8s849vtxkIU/view?usp=drive_link
+https://youtu.be/SdtsEZKfX2g
 
 
 ## Installation
