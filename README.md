@@ -1,9 +1,5 @@
-# CookGPT 🚀 🌮
+# Chef-AI 🚀 🌮
 This is a web application demo for generating Recipes using LogMeal API and Google's AI.
-
-#### Video Presentation:
-https://youtu.be/SdtsEZKfX2g
-
 
 ## Installation
 1. Create a folder
